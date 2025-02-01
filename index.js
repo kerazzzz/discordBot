@@ -85,7 +85,7 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
     if (commandName === 'info') {                                  //not /info
         await interaction.reply(`
-            📕Project Name: Smart Virtual Interface
+            📕Project Name: ${projectTitle}
             👨🏼‍💻 Work Completed: 30% (max)
             🗓️ Days remaining until Predefense: ${DayzRemainningPredefense};
             🗓️ Days remaining until Finaldefense: ${DayzRemainningFinalDfense};
